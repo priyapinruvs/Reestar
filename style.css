@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0 ;
+}
+
+.section1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+
+}
+.nav{
+    display: inline-block;
+    padding: 10px;
+}
+.nav-list li{
+    list-style: none;
+    display: inline-block;
+    color: rgb(161, 161, 161);
+    padding: 2px;
+}
+.section2, .section3, .section4, .section5{
+    width: 200px;
+    height: 420px;
+    border: solid black 1px;
+    text-align: center;
+    display: inline-block;
+    }
+.section2 button, .section3 button, .section4 button, .section5 button{
+    background-color: black;
+    color: white;
+    padding: 2px;
+}
+.container2{
+    margin-top: 10px;
+    text-align: center;
+}
+.section2 button:hover, .section3 button:hover, .section4 button:hover, .section5 button:hover{
+    background-color: yellowgreen;
+    color: black;
+}
+.container3{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.container3--form{
+    text-align: center;
+
+}
+.container3--form button{
+    background-color: yellow;
+    width: 400px;
+    padding:3px;
+}
